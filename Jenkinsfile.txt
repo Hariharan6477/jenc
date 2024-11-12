@@ -11,7 +11,7 @@ pipeline {
       steps {
 	echo 'Stage Hello'
         sh 'javac javacode.java'
-	sh 'java Test'
+	sh 'java javacode'
       }
     }
   }
