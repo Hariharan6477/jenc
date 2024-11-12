@@ -10,8 +10,8 @@ pipeline {
     stage('hello') {
       steps {
 	echo 'Stage Hello'
-        sh 'javac javacode.java'
-	sh 'java javacode'
+        bat 'javac javacode.java'
+	bat 'java javacode'
       }
     }
   }
